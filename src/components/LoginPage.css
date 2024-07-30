@@ -1,0 +1,102 @@
+/* LoginPage.css */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 80px); /* Adjust for header and footer height */
+  padding: 20px;
+  position: relative; /* Added this for positioning the header text */
+}
+
+.login-header {
+  position: absolute; /* Positioning the header text */
+  top: 20px; /* Margin from the top */
+  left: 20px; /* Margin from the left */
+  margin-bottom: 20px;
+}
+
+.header-text {
+  font-size: 50px;
+  text-align: left;
+  color: #e7e7e7;
+  margin-left: 30px;
+}
+
+.login-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 98%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button, .forgot-password-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-button, .forgot-password-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #00a6ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.image-align {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.for-stand {
+  width: 100px;
+}
+
+@media (max-width: 600px) {
+  .header-text {
+    font-size: 20px;
+  }
+
+  .for-stand {
+    width: 80px;
+  }
+
+  .login-header {
+    top: 10px; /* Adjust margin for smaller screens */
+    left: 10px; /* Adjust margin for smaller screens */
+  }
+}
+h2.for-Login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00a6ff;
+}
